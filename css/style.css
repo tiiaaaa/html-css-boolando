@@ -13,35 +13,42 @@
 }
 
 .row{
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
     background-color: yellow;
 }
 
 .card {
     width: calc(100% / 3 - 3px);
-    /* height: 400px; */
     display: inline-block;
     background-color: rgb(0, 255, 21);
 }
 
 .box-img {
     position: relative;
+    margin-bottom: 5px;
 }
 
 .card-img{
     width: 100%;
 }
 
+.first-img {
+    position: absolute;
+}
+
 .heart {
-    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 0;
     padding: 5px 10px;
     background-color: white;
 }
 
 .percentual-of-discount, .sostenibility {
-    /* position: absolute; */
-    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
     padding: 3px;
     font-size: 0.6em;
     font-family: sans-serif;
@@ -54,6 +61,7 @@
 
 .sostenibility {
     background-color: rgb(3, 148, 3);
+    left: 30px;
 }
 
 
